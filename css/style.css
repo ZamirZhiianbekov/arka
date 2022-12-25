@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #EEEEEE;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #011F3A;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.basket a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #011F3A;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero {
+    background: #F2AE4D;
+    padding: 40px 0;
+}
+
+.heroTitle {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+}
+
+.heroDesc {
+    width: 35%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #011F3A;
+    margin: 60px 0 30px 0;
+}
+
+.heroBtn{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 15px 20px;
+    border: none;
+}
+.heroBtn:hover{
+    background: red;
+    color: black;
+    padding: 20px 20px;
+ }
+
+
+/*hero end*/
+
+/* hero-2 start*/
+
+#hero-2{
+    background: #E5E5E5;
+    padding: 40px 0;
+}
+
+.shop p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing:1px;
+    color: #A1A1A1;
+}
+
+.amazon p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing:1px;
+    color: #A1A1A1;
+}
+
+.eco{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing:1px;
+    color: #A1A1A1;
+}
+/*hero-2 end*/
+
+/*hero-3 start*/
+
+#hero-3 {
+    background: #EEEEEE;
+    padding: 40px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.h-3text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #011F3A;
+}
+
+.h-3btn{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 10px 18px;
+    border: none;
+}
+
+.h-3btn:active{
+    background: red;
+    color: black;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.grid-item img:hover{
+    background: red;
+}
+
+.grid-item h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing:1px;
+    color: #011F3A;
+}
+
+.grid-p{
+    width: 25%;
+    display: grid;
+    grid-template-columns: 260px auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.gridText-1{
+    width: 150px;
+}
+
+.button-hero3 {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    background: #EEEEEE;
+    padding: 60px;
+}
+.button-hero3 p{
+    color: #A1A1A1;
+}
+
+.button-hero3 button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3D5675;
+    background: #FFFFFF;
+    border-radius: 44px;
+    padding: 15px 30px;
+    border: none;
+    transition: 0.5s;
+}
+
+.button-hero3 button:hover{
+    background: #3D5675;
+    color: white;
+}
+/*hero-3 end*/
+
+
+/*hero-4 start*/
+#hero-4{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-4container{
+    width: 90%;
+    background: #72BDA3;
+}
+
+.hero-4h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #011F3A;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-hero4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-itemHero4 img{
+    width: 400px;
+}
+
+.gridTextHero4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #011F3A;
+}
+
+.gridTextHero41{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #3D5675;
+
+}
+
+.grid-itemHero4 p{
+    line-height: 24px;
+    text-align: center;
+    color: #3D5675;
+}
+
+.hero-4btn{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 60px;
+}
+
+.hero-4btn1{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background: #3D5675;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/*hero-4 end*/
+
+/*hero-5 start*/
+.hero-5{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-5container{
+    width: 90%;
+    background: white;
+}
+
+.grid-hero5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.hero5h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: #011F3A;
+}
+
+.grid-itemHero5{
+    width: 100%;
+}
+
+.gridTextHero5{
+    margin:20px 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #011F3A;
+}
+
+.gridTextHero51{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+}
+
+.grid-itemHero5 img{
+    padding: 60px;
+}
+
+/*hero-5 end*/
+
+/*hero-6 start*/
+.hero-6{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.hero-6container{
+    width: 90%;
+    background: #FFCA3A;
+    padding: 70px;
+}
+
+.gridHero6{
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.grid-itemHero6{
+    width: 38%;
+    text-align: center;
+}
+
+.grid-itemHero6 img{
+    width: 350px;
+    align-items: center;
+}
+
+.hero6h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #011F3A;
+}
+
+.gridTextHero6{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #3D5675;
+    padding: 15px;
+}
+
+.buttonHero6{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3D5675;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: none;
+}
+/*hero-6 end*/
+
+/*hero-7 start*/
+.hero7h1{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #011F3A;
+}
+
+.jesse_h1{
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #011F3A;
+    padding-bottom: 15px;
+
+}
+
+.hero-7img{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+.hero__7img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px 0;
+}
+
+.jesse{
+    width:30%;
+}
+
+.jess_e{
+    display: flex;
+    align-items: center;
+}
+
+.hero-7btn button{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3D5675;
+    padding: 15px 15px;
+    background: #F2F2F2;
+    border-radius: 44px;
+    border: none;
+}
+/*hero-7 end*/
+
+/*hero-8 start*/
+#hero-8{
+    padding: 80px;
+    text-align: center;
+}
+
+.hero-8buttons{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-8h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 31px;
+    text-align: center;
+    color: #011F3A;
+}
+
+.hero-8button{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3D5675;
+    border-radius: 44px;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.hero-8btnWhite{
+    background: white;
+    color: #011F3A;
+}
+/*hero-8 end*/
+
+/*start footer*/
+.footer{
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #F2F3F4;
+}
+
+.footer_menu p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3D5675;
+    padding: 5px;
+}
+
+.email{
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    color: rgba(61, 86, 117, 0.4);
+}
+
+.footerBtn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3D5675;
+    border-radius: 44px;
+    padding: 8px 20px;
+    border: none;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
